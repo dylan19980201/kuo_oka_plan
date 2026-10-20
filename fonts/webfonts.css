@@ -1,0 +1,18 @@
+/* Fraunces + Inter (latin subset, variable) — shared by the online page and the offline ZIP.
+   Each family ships as one variable file covering the whole weight range. */
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('fraunces-400.woff2') format('woff2-variations'),
+       url('fraunces-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('inter-400.woff2') format('woff2-variations'),
+       url('inter-400.woff2') format('woff2');
+}
